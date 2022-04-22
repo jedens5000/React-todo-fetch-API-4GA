@@ -1,26 +1,30 @@
-import React from "react";
+// import React, { useState, useEffect } from "react";
+// import "../styles/App.css";
+// import "../../styles/index.css";
+// import Fetch from "./components/Fetch";
+// import Form from "./Form";
+// import TodoList from "./TodoList";
+/////////////////////////////////////////////////////////////////////////
+//////////////////////MOVED TO APP.js////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+// function Home() {
+	// const [inputText, setInputText] = useState("");
+	// const [todos, setTodos] = useState([]);
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
-//create your first component
-const Home = () => {
-	return (
-		<div>
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
-	);
-};
-
-export default Home;
+	// return (
+		// <div className="App">
+		// 	<header>
+		// 		<h1>My Todo List</h1>
+		// 	</header>
+		// 	<Form
+		// 		inputText={inputText}
+		// 		setInputText={setInputText}
+		// 		todos={todos}
+		// 		setTodos={setTodos}
+		// 	/>
+		// 	<TodoList todos={todos} setTodos={setTodos} />
+		// </div>
+	// );
+// }
+////////////////////////////////////////////////////////////////////////////////
+// export default Home;
